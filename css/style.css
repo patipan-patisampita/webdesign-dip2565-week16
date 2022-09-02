@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box1{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px; */
+    border: 10px solid orange;
+    padding: 10px;
+    background-color: pink;
+    box-sizing: content-box;
+}
+
+.box2{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border: 10px solid #359;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bg-img{
+    width:70%;
+    border-radius: 50%;
+    border: 10px solid violet;
+}
+
+.bg-img2{
+    width:70%;
+    border-radius: 10%;
+    border: 10px solid #359;
+}
+
+.bg-img3{
+    width:70%;
+    border: 10px solid orange;
+}
