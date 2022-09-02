@@ -12,6 +12,21 @@
     box-sizing: content-box;
 }
 
+.flex-container2{
+    display: flex;
+    align-items: stretch;
+    background-color: beige;
+}
+
+.flex-container2 > div{
+    margin: 10px;
+    background-color: dodgerblue;
+    color: #ffffff;
+    line-height: 75px;
+    text-align: center;
+    font-size: 30px;
+}
+
 .flex-menus{
   display: flex;
   flex-direction: row;  
